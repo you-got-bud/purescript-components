@@ -7,6 +7,9 @@
     "test": "test"
   },
   "scripts": {
+    "build:tailwind": "tailwindcss build src/App.css",
+    "build:spago": "spago build",
+    "build": "yarn build:tailwind && yarn build:spago",
     "test": "spago test"
   },
   "repository": {
