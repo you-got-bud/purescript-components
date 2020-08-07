@@ -1,4 +1,4 @@
-module View where
+module View.Classy where
 
 import React.Basic (JSX)
 
