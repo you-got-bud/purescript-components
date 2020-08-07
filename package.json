@@ -27,6 +27,10 @@
   "homepage": "https://github.com/i-am-the-slime/purescript-react-basic-storybook#readme",
   "devDependencies": {
     "purescript": "^0.13.5",
+    "purs": "^0.3.0",
     "spago": "^0.12.1"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.6.2"
   }
 }
