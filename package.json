@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "build:tailwind": "tailwindcss build src/App.css",
+    "build:tailwind": "tailwindcss build src/App.css -o output/App.css",
     "build:spago": "spago build",
     "build": "yarn build:tailwind && yarn build:spago",
     "test": "spago test"
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/i-am-the-slime/purescript-react-basic-storybook#readme",
   "devDependencies": {
+    "parcel": "^1.12.4",
     "purescript": "^0.13.5",
     "purs": "^0.3.0",
     "spago": "^0.12.1"
